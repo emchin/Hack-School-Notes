@@ -1,4 +1,4 @@
-# [Hack School: Part 2 - Javascript/Node.js][10.22.2020]
+# Hack School: Part 2 - Javascript/Node.js [10.22.2020]
 
 Workshop Recording: (__insert-link-here__)
 
