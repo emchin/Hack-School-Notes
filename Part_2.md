@@ -12,7 +12,7 @@ We used these ideas to:
 
 
 
-## What is JavaScript and NodeJS?
+## What is JavaScript and Node.js?
 
 JavaScript is a scripting language (meaning: it has its own terminology, etc.). It is used to make applications dynamic and interactive.
 
