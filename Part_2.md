@@ -2,7 +2,7 @@
 
 Workshop Recording: (__insert-link-here__)
 
-In this workshop, we learned about Javascript and Node.js. Specifically, we learned about **variables**, **loops**, **arrow functions**, and **promises**.
+In this workshop, we learned about Javascript and Node.js. Specifically, we learned about **variables**, **objects**, **arrow functions**, and **promises**.
 
 
 We used these ideas to:
@@ -95,24 +95,68 @@ But if a `var` variable was defined INSIDE a block, it is considered locally-sco
 
 Long story short?
 
+For your sanity and ours...
+
 PLEASE. DON'T. USE. `var`.)
 
 
-### Main Idea 2
+### Objects
 
-Main Idea 1 is (explanation).
+Everything in JavaScript is an object. It's like the cake thing on TikTok.
 
-Some examples of Main Idea 1 are:
+In our project, though, one important object is our pokemon.
 
-#### `(Code Command #1)`
-
-`Code Command #1` is a (insert descriptor here). It takes (input) and (does output).
+Let's take a look at our Pikachu example from the slides:
 
 ```
-example code here
+let Pikachu = {
+	name : 'pika',
+	type : 'electric',
+	power : 50,
+hp : 150,
+	attacks :  ['Thunder Shock','Tail Whip','Spark'],
+	attack : function (attacker) {
+		return (attacker.hp - this.power);
+	}
+};
 ```
 
-### Main Idea 3
+In this code, we use `let` to define an object with variable name Pikachu. 
+
+That object, Pikachu, has **properties** such as "name", "type", and "power." These properties can be accessed using a `.` For example, printing `Pikachu.power` would return `50`.
+
+Objects can also have **methods**. They are functions that are associated with an object. 
+
+Methods often use `this` to refer to the object's properties; for example, Pikachu's "attack" method calls for `this.power`.
+
+
+### Callback and Higher-Order Functions
+
+Functions are considered objects in JavaScript. 
+
+A callback function is a function that is passed as an object for another function (which is called the higher-order function).
+
+For example:
+
+```
+function multNum (num1, num2, pokemon, callback) {
+console.log('your pokemon will heal ' + (num1 * num2) + ' hp');
+	callback(pokemon, num1 * num2);
+}
+```
+
+This is a higher-order function `multNum` that asks a general callback function `callback` to do something with `(pokemon, num1*num2)`.
+
+Later, we pass `heal` as the callback function:
+
+```
+multNum (5, 6, pikachu, heal);
+```
+
+As you can see, in this instance, the higher-order function `MultNum` takes the callback function `heal` as a callback function.
+
+
+### Promises
 
 Main Idea 1 is (explanation).
 
@@ -140,8 +184,8 @@ example code here
 
 ## Simple Resources:
 
-**Main Idea 1**:
+On `let`, `var` and `const`: [freecodecamp article] (https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
-Site #1: (link)
+On JavaScript object properties: [W3Schools article] (https://www.w3schools.com/js/js_object_properties.asp)
 
-Site #2: (link)
+On JavScript promises: [Mozilla article] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
