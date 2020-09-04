@@ -123,11 +123,11 @@ hp : 150,
 
 In this code, we use `let` to define an object with variable name Pikachu. 
 
-That object, Pikachu, has **properties** such as "name", "type", and "power." These properties can be accessed using a `.` For example, printing `Pikachu.power` would return `50`.
+That object, Pikachu, has **properties**. Properties are characteristics of an object. These properties can be accessed with `.property` For example, printing `Pikachu.power` would return `50`.
 
-Objects can also have **methods**. They are functions that are associated with an object. 
+Objects can also have **methods**. Methods are functions that an object can execute. These methods can be accessed with `.method_name()`. For example, `Pikachu.attack()` would cause the Pikachu to attack.
 
-Methods often use `this` to refer to the object's properties; for example, Pikachu's "attack" method calls for `this.power`.
+Methods often use `this` to call an object's own properties in its method. For example, Pikachu's "attack" method calls for `this.power`.
 
 
 ### Callback and Higher-Order Functions
