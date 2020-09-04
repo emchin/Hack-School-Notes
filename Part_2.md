@@ -48,26 +48,35 @@ Note that the second console.log returned 6. JavaScript considers  `apple` outsi
 
 
 `let` variables can also be re-assigned. However, they cannot be re-declared:
-`let apple = 6
-apple = 7`
+```
+let apple = 6
+apple = 7
+```
 This is re-assigning the variable apple to the number 7. JavaScript realizes that the previously-defined variable  `apple` is being updated. This is okay!
 
-`let apple = 6
-let apple = 7` 
+```
+let apple = 6
+let apple = 7
+```
 This is re-declaring the variable apple. The use of `let` makes JavaScript expects `apple` to be a new variable. Since it's not, JavaScript will throw an error.
 
 #### `const`
 
 `const` is also a command that is block scoped. However, it cannot be re-assigned or re-declared.
-This means that
-`let apple = 6
-apple = 7`
 
-AND
+This means that:
+```
+let apple = 6
+apple = 7
+```
+will return an error, because re-assignemnt is not allowed.
 
- `let apple = 6
-  let apple = 7`
- will both return an error.
+This also means that:
+```
+let apple = 6
+let apple = 7
+```
+will return an error, becuase re-declaration is not allowed.
 
 
 ### Main Idea 2
