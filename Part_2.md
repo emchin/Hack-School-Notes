@@ -31,6 +31,7 @@ In JavaScript, you can assign variable names in several different ways:
 #### `let`
 
 `let` is a command that is **block scoped**. A block is a chunk of code bounded by curly braces {}.
+
 This means that `let` defines variables within the scope of a block (or outside of the block):
 
 ```
@@ -44,8 +45,6 @@ if (1 < 2) {
 console.log(apple) \\ Since apple outside of the block is defined as 6, this will return 6
 ```
 Note that the second console.log returned 6. JavaScript considers  `apple` outside of the block to be an entirely different variable than `apple` inside the block, because inside of the block is a new scope.
-
-If you still can't wrap your head around this idea, imagine each block as an empty box to store variables in. You may have a variable in one box, but that doesn't mean the next box has it, and it doesn't mean you can find and use that variable outside of all the boxes.
 
 
 `let` variables can also be re-assigned. However, they cannot be re-declared:
