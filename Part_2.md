@@ -184,8 +184,8 @@ example code here
 
 ## Simple Resources:
 
-On `let`, `var` and `const`: [freecodecamp article] (https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
+On `let`, `var` and `const`: [freecodecamp article](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
-On JavaScript object properties: [W3Schools article] (https://www.w3schools.com/js/js_object_properties.asp)
+On JavaScript object properties: [W3Schools article](https://www.w3schools.com/js/js_object_properties.asp)
 
-On JavScript promises: [Mozilla article] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+On JavScript promises: [Mozilla article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
