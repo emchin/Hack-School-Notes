@@ -31,26 +31,45 @@ In JavaScript, you can assign variable names in several different ways:
 #### `let`
 
 `let` is a command that is **block scoped**. A block is a chunk of code bounded by curly braces {}.
-This means that `let` variables inside a block are only defined in that block, and vice-versa:
+This means that `let` defines variables within the scope of a block (or outside of the block):
 
 ```
 let apple = 6
 
 if (1 < 2) {
-  let apple = 10
-  console.log(apple) \\ Since the variable apple inside the block is defined as 10, this will return 10
+  let apple = 10 \\ This will create a "new" variable `apple` inside the block.
+  console.log(apple) \\ This will return 10.
 }
 
 console.log(apple) \\ Since apple outside of the block is defined as 6, this will return 6
 ```
+Note that the second console.log returned 6. JavaScript considers  `apple` outside of the block to be an entirely different variable than `apple` inside the block, because inside of the block is a new scope.
 
-`let` variables can also be re-assigned. However, they cannot be re-declared.
-```
-let apple = 6
+If you still can't wrap your head around this idea, imagine each block as an empty box to store variables in. You may have a variable in one box, but that doesn't mean the next box has it, and it doesn't mean you can find and use that variable outside of all the boxes.
 
-apple = 7 // This is re-assigning the variable apple to the number 7. JavaScript realizes that apple is being changed. This is okay!
-let apple = 7 // This is re-declaring the variable apple. The use of `let` makes JavaScript expects apple to be a new variable. Since it's not, JavaScript will throw an error.
-```
+
+`let` variables can also be re-assigned. However, they cannot be re-declared:
+`let apple = 6
+apple = 7`
+This is re-assigning the variable apple to the number 7. JavaScript realizes that the previously-defined variable  `apple` is being updated. This is okay!
+
+`let apple = 6
+let apple = 7` 
+This is re-declaring the variable apple. The use of `let` makes JavaScript expects `apple` to be a new variable. Since it's not, JavaScript will throw an error.
+
+#### `const`
+
+`const` is also a command that is block scoped. However, it cannot be re-assigned or re-declared.
+This means that
+`let apple = 6
+apple = 7`
+
+AND
+
+ `let apple = 6
+  let apple = 7`
+ will both return an error.
+
 
 ### Main Idea 2
 
