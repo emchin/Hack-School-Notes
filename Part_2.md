@@ -69,7 +69,7 @@ This means that:
 let apple = 6
 apple = 7
 ```
-will return an error, because re-assignemnt is not allowed.
+will return an error, because re-assigned is not allowed.
 
 This also means that:
 ```
@@ -77,6 +77,22 @@ let apple = 6
 let apple = 7
 ```
 will return an error, becuase re-declaration is not allowed.
+
+#### `var`
+
+DON'T USE `var`.
+
+(Basically, `var` is the command that JavaScript used to define variables pre-ES6 (before JavaScript was standardized). The problem is, `var` is not block scoped; it's globally or locally-scoped.
+
+That means if a `var` variable was defined outside of a block, it is considered globally scoped, and can be used anywhere.
+
+But if a `var` variable was defined INSIDE a block, it is considered locally-scoped, and only accessible in the scope of that block.
+
+`var` variables can also be re-assigned AND re-declared, either inside or outside of a block.
+
+Long story short?
+
+PLEASE. DON'T. USE. `var`.)
 
 
 ### Main Idea 2
