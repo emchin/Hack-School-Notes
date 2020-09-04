@@ -1,14 +1,13 @@
-# Hack School: Part 2 - Javascript/Node.js [10.22.2020]
+# Hack School: Part 2 - Javascript/Node.js (10/22)
 
 Workshop Recording: (__insert-link-here__)
 
-In this workshop, we learned about Javascript and Node.js. Specifically, we learned **main idea 1**, **main idea 2**, and **main idea 3**.
+In this workshop, we learned about Javascript and Node.js. Specifically, we learned about **variables**, **loops**, **arrow functions**, and **promises**.
 
-We used these ideas to to:
-- [x] Task 1
-- [x] Task 2
-- [x] Task 3
-- [ ] (Optional) Task 4
+We used these ideas to:
+- [x] Create pokemon
+- [x] Create attack functions
+- [x] Determine how much damage each attack does
 
 
 ## Downloads:
@@ -20,14 +19,16 @@ For Mac users: (download instructions) (link)
 For Windows: (download instructions) (link)
 
 
-## What is [Workshop Name]?
+## What is JavaScript and NodeJS?
 
-[Workshop Name] is (insert general description here). It is used for (general purpose).
+JavaScript is a scripting language (meaning: it has its own terminology, etc.). It is used to make applications [dynamic] and ***INTERACTIVE***.
 
-In Hack School, we will be using [Tool 1] to (purpose for project).
+Node.js is an environment that sits in between a server and the client-side (what you see). It allows an application to process JavaScript commands asynchronously [**(through asynchronous programming)**].
+
+In Hack School, we will be using JavaScript and Node.js to make our Pokemon game move/change. JavaScript and Node.js handles every dialogue box, every change in HP, every user command, etc., and updates accordingly.
 
 
-### Main Idea 1
+### Variables
 
 Main Idea 1 is (explanation).
 
