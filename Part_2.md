@@ -24,6 +24,36 @@ In Hack School, we will be using JavaScript and Node.js to make our Pokemon game
 
 ### Variables
 
+Variables are objects that store information in variable names.
+
+In JavaScript, you can assign variable names in several different ways:
+
+#### `let`
+
+`let` is a command that is **block scoped**. A block is a chunk of code bounded by curly braces {}.
+This means that `let` variables inside a block are only defined in that block, and vice-versa:
+
+```
+let apple = 6
+
+if (1 < 2) {
+  let apple = 10
+  console.log(apple) \\ Since the variable apple inside the block is defined as 10, this will return 10
+}
+
+console.log(apple) \\ Since apple outside of the block is defined as 6, this will return 6
+```
+
+`let` variables can also be re-assigned. However, they cannot be re-declared.
+```
+let apple = 6
+
+apple = 7 // This is re-assigning the variable apple to the number 7. JavaScript realizes that apple is being changed. This is okay!
+let apple = 7 // This is re-declaring the variable apple. The use of `let` makes JavaScript expects apple to be a new variable. Since it's not, JavaScript will throw an error.
+```
+
+### Main Idea 2
+
 Main Idea 1 is (explanation).
 
 Some examples of Main Idea 1 are:
@@ -36,6 +66,19 @@ Some examples of Main Idea 1 are:
 example code here
 ```
 
+### Main Idea 3
+
+Main Idea 1 is (explanation).
+
+Some examples of Main Idea 1 are:
+
+#### `(Code Command #1)`
+
+`Code Command #1` is a (insert descriptor here). It takes (input) and (does output).
+
+```
+example code here
+```
 
 ## Project Implementation
 
