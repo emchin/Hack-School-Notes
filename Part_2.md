@@ -1,8 +1,8 @@
-# [Workshop Name][Date]
+# [Hack School: Part 2 - Javascript/Node.js][10.22.2020]
 
 Workshop Recording: (__insert-link-here__)
 
-In this workshop, we learned about [Workshop Name]. Specifically, we learned **main idea 1**, **main idea 2**, and **main idea 3**.
+In this workshop, we learned about Javascript and Node.js. Specifically, we learned **main idea 1**, **main idea 2**, and **main idea 3**.
 
 We used these ideas to to:
 - [x] Task 1
