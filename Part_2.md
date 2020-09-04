@@ -47,6 +47,7 @@ console.log(apple) \\ Since apple outside of the block is defined as 6, this wil
 Note that the second console.log returned 6. JavaScript considers  `apple` outside of the block to be an entirely different variable than `apple` inside the block, because inside of the block is a new scope.
 
 
+
 `let` variables can also be re-assigned. However, they cannot be re-declared:
 ```
 let apple = 6
@@ -62,7 +63,9 @@ This is re-declaring the variable apple. The use of `let` makes JavaScript expec
 
 #### `const`
 
-`const` is also a command that is block scoped. However, it cannot be re-assigned or re-declared.
+`const` is also a command that is **block scoped**. 
+
+However, *unlike* the `let` command, `const` CANNOT re-assign OR re-declare variables.
 
 This means that:
 ```
