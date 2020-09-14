@@ -185,7 +185,7 @@ example code here
 
 <details> 
   <summary> Hint 1: Where to begin? </summary>
-   Start with this:
+	Start with this: <code>this code here</code>
 </details>
 
 ## Simple Resources:
