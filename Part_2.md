@@ -183,6 +183,11 @@ For that, we use **main idea 1** and **main idea 2**.
 example code here
 ```
 
+<details> 
+  <summary> Hint 1: Where to begin? </summary>
+   Start with this:
+</details>
+
 ## Simple Resources:
 
 About `let`, `var` and `const`: [freecodecamp article](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
