@@ -285,7 +285,7 @@ We are going to set up a for-loop. This code already has an `if` statement that 
 
 <details> 
   <summary> Hint 3: Loop Basics </summary>
-	<p> That means our for-loop wants to iterate over every number from 0 to length-1.</p>
+	<p> That means our for-loop wants to iterate over every number from <code>0</code> to <code>length-1</code>.</p>
 	<p> For more information on for-loops, look at slide 14 of the presentation. </p>
 </details>
 
