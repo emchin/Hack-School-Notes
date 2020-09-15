@@ -96,7 +96,7 @@ The `<p>` element is the plain-text elements. They display regular, unbolded tex
 For reference, look at Slide 14 of the HTML/CSS slides.
 
 
-### How to create website elements
+### How to style website elements
 
 CSS determines the layout, design and color of a webpage. We style webpage elements with CSS.
 
@@ -120,6 +120,7 @@ Selecting all plain-text elements is okay if you want *all* plain-text to have f
 
 That's where classes and ids come in.
 
+##### Classes
 A **class** is an identifier that can be used for multiple HTML elements. If you give the HTML element the attribute `class="example_class"`, then you can style that element by using `.example_class` as your CSS selector.
 
 Note that you add a `.` before your `example_class` to tell the CSS compiler that `example_class` is a CLASS.
@@ -127,7 +128,9 @@ Note that you add a `.` before your `example_class` to tell the CSS compiler tha
 For example, if you modify elements in your HTML document with `example_class`:
 ```
 <h1 class="example_class"> This text will be red. </h1>
+
 <p class="example_class"> This text will be red. </p>
+
 <p> This text will not be red. </p>
 ```
 
@@ -138,18 +141,22 @@ Then you can style those modified elements in your CSS document:
 }
 ```
 
+##### ids
+
 An **id** is an identifier that can only be used for *ONE* HTML element. If you give an HTML element the attribute `id="example_id"`, then you can style that element by using `#example_id` as your CSS selector.
 
 Note that you add a `#` before your `example_id` to tell the CSS compiler that `example_id` is an ID.
 
-For example, by tagging the first heading in HTML:
+For example, by tagging the first <h1> in HTML:
+  
 ```
-<h1 id="example_id"> This text will be blue and 20-pt. </h1>
+<h1 id="example_id"> This text will be red and 20-pt. </h1>
 
-<h2> Remember, I can't give this the id "example_id" because you can only use one id for one HTML element! </h2>
+<h1> Remember, I can't give this element the id "example_id" because you can only use one id per HTML element! </h1>
 ```
 
-You can reference that in CSS by selecting the id:
+You can reference the first <h1> in CSS by selecting the id:
+  
 ```
 #example_id {
     color: 'red';
