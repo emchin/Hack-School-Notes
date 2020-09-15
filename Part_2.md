@@ -274,11 +274,12 @@ We are going to set up a for-loop. This code already has an `if` statement that 
 
 <details> 
   <summary> Hint 2: This looks familiar...! </summary>
+	<div>
 	<img src="https://www.pinknews.co.uk/images/2016/08/you-shall-not-pass-1.jpg" alt="team rocket in disguise" height=50% width=50%>
 	<p> Hey, this looks familiar...!</p>
-	<p></p>
+	</div>
 	<p> We know how to pick random elements from the <code>this.attacks</code> list (see the previous todo).</p>
-	<p> In this TODO, we want to get <b>every element</b> from the <code>this.attacks<.code> list.</p>
+	<p> In this TODO, we want to get <b>every element</b> from the <code>this.attacks</code> list.</p>
 </details>
 		
 
