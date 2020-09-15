@@ -213,9 +213,9 @@ The method gives us a parameter, `attacker`, which is the attacking pokemon as a
 
 <details> 
   <summary> Hint 1: node.js random.int </summary>
-	We already require('random') at the top of Pokemon.js!
-	To access the random function, use <code>random(first_num, second_num)</code>.
-	This gives you a random number in between first_num and second_num.
+	<p>We already require('random') at the top of Pokemon.js!</p>
+	<p>To access the random function, use <code>random(first_num, second_num)</code>.</p>
+	<p>This gives you a random number in between first_num and second_num.</p>
 </details>
 
 <details> 
@@ -225,25 +225,28 @@ The method gives us a parameter, `attacker`, which is the attacking pokemon as a
 
 <details> 
   <summary> Hint 3: this.attacks[SOMETHING] </summary>
-	This is the part of the code where Pikachu attacks!
-	To attack, you need to call this.attacks(SOMETHING) where SOMETHING is the amount of damage the attack does.
-	(We seem to have already determined that random value...)
+	<p>This is the part of the code where Pikachu attacks!</p>
+	<p>To attack, you need to call this.attacks(SOMETHING) where SOMETHING is the amount of damage the attack does.</p>
+	<p>(We seem to have already determined that random value...)</p>
 </details>
 
 <details> 
   <summary> Hint 3: return (whatyoushouldreturn) </summary>
-	What are you missing?
+	<p>What are you missing?</p>
+	<div>
 	<img src="http://pm1.narvii.com/5777/852647e5bf3e64456974acad207295c2445f6964_hq.jpg" alt="Ash yelling" height=50% width=50%>
-	As amusing as it would be for pokemon to just snipe each other silently, it would be a pretty boring game! We want to know what attack the pokemon used!
-	Hint: it should be a random move.
+	</div>
+	<p> As amusing as it would be for pokemon to just snipe each other silently, it would be a pretty boring game! We want to know what attack the pokemon used! </p>
+	<p>Hint: it should be a random move.</p>
 </details>
 
 <details> 
   <summary> Hint 4: I still don't get it :( </summary>
-	You want to randomize what move your pokemon uses. 
-	You have a function that generates a random integer, given a lowest and highest value.
-	You can count elements in a list with the <code>.length</code> attribute.
-	You have a list of pokemon attacks.
+	<p> You want to randomize what move your pokemon uses. </p>
+	<p> You have a function that generates a random integer, given a lowest and highest value. </p>
+	<p> You can count elements in a list with the <code>.length</code> attribute. </p>
+	<p> You have a list of pokemon attacks. </p>
+	<p> You can pick an element from the attacks list with this command <code>this.attacks[element_number]</code></p>
 </details>
 
 ## Simple Resources:
