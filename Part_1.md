@@ -277,7 +277,7 @@ See slide 18 of Part One for help.
 
 <details> 
   <summary> Hint #3: Use your head(er)! </summary>
-  Remember that each header element <code>h1</code> to <code>h6</code> determines the size of the header! If you want to increase your header size, decrease the number.
+  Remember that each header element <code> <h1> </code> to <code> <h6> </code> determines the size of the header! If you want to increase your header size, decrease the number.
 </details>
 
 ## Simple Resources:
