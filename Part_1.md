@@ -287,6 +287,7 @@ Copy and paste the code from Slide 19 into viewPokemon.html and createPokemon.ht
 <details>
   <summary>Hint 1: How do I do that?</summary>
   If you have clicked on this hint...Team Rocket is ashamed of you.
+  
   <img src="https://i.ytimg.com/vi/_lJ98sqFY_g/hqdefault.jpg" alt="Jessie and Meowth Complaining">
 </details>
 
