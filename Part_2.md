@@ -216,26 +216,26 @@ For that, we use our knowledge of **variables**, **objects' methods** and `this`
 The method gives us a parameter, `attacker`, which is the attacking pokemon as an object.
 
 <details> 
-  <summary> Hint 1: node.js random.int </summary>
+	<summary> Hint 1: <code>node.js random.int</code> </summary>
 	<p>We already require('random') at the top of Pokemon.js!</p>
 	<p>To access the random function, use <code>random(first_num, second_num)</code>.</p>
 	<p>This gives you a random number in between first_num and second_num.</p>
 </details>
 
 <details> 
-  <summary> Hint 2: attacker.damage(damage) </summary>
+	<summary> Hint 2: <code>attacker.damage(damage)</code> </summary>
 	Add this code directly to the method (remove <code>//hint </code>)
 </details>
 
 <details> 
-  <summary> Hint 3: this.attacks[SOMETHING] </summary>
+	<summary> Hint 3: <code>this.attacks[SOMETHING]</code> </summary>
 	<p>This is the part of the code where Pikachu attacks!</p>
 	<p>To attack, you need to call this.attacks(SOMETHING) where SOMETHING is the amount of damage the attack does.</p>
 	<p>(We seem to have already determined that random value...)</p>
 </details>
 
 <details> 
-  <summary> Hint 3: return (whatyoushouldreturn) </summary>
+	<summary> Hint 3: <code>return (whatyoushouldreturn)</code> </summary>
 	<p>What are you missing?</p>
 	<div>
 	<img src="http://pm1.narvii.com/5777/852647e5bf3e64456974acad207295c2445f6964_hq.jpg" alt="Ash yelling" height=50% width=50%>
@@ -292,7 +292,7 @@ We are going to set up a for-loop. This code already has an `if` statement that 
 	<p> For more information on for-loops, look at slide 14 of the presentation. </p>
 </details>
 
-### TODO: Winning Conditions
+### TODO: Winning Conditions (index.js)
 
 ```
 // TODO WINNING CONDITIONS PRINT WHO WINS AND RETURN
@@ -304,7 +304,14 @@ A pokemon wins when their opponent loses all of their health points. Then a mess
 
 According to the instructions, you then `return`.
 
-
+<details> 
+  <summary> Hint 1: Don't Beat A Dead Rapidash (Or Any Pokemon, That's Animal Abuse) </summary>
+	<img src="https://cdn.bulbagarden.net/upload/thumb/b/bd/Nurse_Joy_M20.png/250px-Nurse_Joy_M20.png" alt="nurse joy" height=50% width=50%>
+	<p> Good morning! This is a PSA from Nurse Joy and Chansey. </p>
+	<p> Sometimes, if you "finish off" a pokemon, the opponent's damage taken might be greater than their health points. </p>
+	<p> Please don't keep battling a pokemon with negative HP! </p>
+	<p> Please make sure your if-statement accounts for negative numbers (<code> <=0 <code>)! </p>
+</details>
 
 ## Simple Resources:
 
