@@ -2,6 +2,8 @@
 
 Workshop Recording: (__insert-link-here__)
 
+REPL Link: (__insert-link-here__)
+
 In this workshop, we learned about HTML and CSS. Specifically, we learned about **how to create website elements** and **how to style webpage elements**.
 
 We used these ideas to to:
