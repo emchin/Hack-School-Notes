@@ -272,12 +272,22 @@ See slide 18 of Part One for help.
 
 <details> 
   <summary> Hint #2: Remember to end (tag) strong! </summary>
-  Make sure each <code>h</code> and <code>p</code> tag has an end tag <code>/h</code> and <code>/p</code> sandwiching your header text and description text!
+  Make sure each header and plain-text tag has an end tag sandwiching your header text and description text!
 </details>
 
 <details> 
   <summary> Hint #3: Use your head(er)! </summary>
-  Remember that each header element <pre><code> <h1> </code></pre> to <pre><code> <h6> </code></pre> determines the size of the header! If you want to increase your header size, decrease the number.
+  Remember that each header element h1 through h6 determines the size of the header! If you want to increase your header size, decrease the number.
+</details>
+
+### Task 2: Create a NavBar (and make it double)!
+
+Copy and paste the code from Slide 19 into viewPokemon.html and createPokemon.html.
+
+<details>
+  <summary>Hint 1: How do I do that?</summary>
+  If you have clicked on this hint...Team Rocket is ashamed of you.
+  <img src="https://i.ytimg.com/vi/_lJ98sqFY_g/hqdefault.jpg" alt="Jessie and Meowth Complaining">
 </details>
 
 ## Simple Resources:
