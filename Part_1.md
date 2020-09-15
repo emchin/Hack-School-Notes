@@ -254,24 +254,33 @@ For more information about flexbox (it is very important for website design, and
 
 ## Project Implementation   
 
-### Task 1
+### Task 1: Create 3 Pokemon names, images and descriptions!
 
-We want to do (insert task here) for our Pokemon generator.
+We want to do create pokemon names, images and descriptions for our Pokemon generator.
 
-For that, we use **main idea 1** and **main idea 2**.
+Create a file called viewPokemon.html.
 
-```
-example code here
-```
+We will use the **`<h>` HTML element**, the **`<img>` HTML element**, and the **`<p>` HTML element**.
+
+See slide 18 of Part One for help.
 
 <details> 
-  <summary> Hint #1: </summary>
-   Try doing this: <code> code </code>
+  <summary> Hint #1: Picture Perfect! </summary>
+  Your <code><img></code> tag should contain the attribute <code>src="copied_URL_from_internet"</code> or, if you're feeling extra fancy, <code>src="path_on_computer"</code>. Remember that your <code><img></code> does NOT have an end tag!
+</details>
+
+<details> 
+  <summary> Hint #2: Remember to end (tag) strong! </summary>
+  Make sure each <code><h></code> and <code><p></code> tag has an end tag <code></h> and </p> sandwiching your header text and description text!
+</details>
+
+<details> 
+  <summary> Hint #3: Use your head(er)! </summary>
+  Remember that each header element <code><h1></code> to <code><h6></code> determines the size of the header! If you want to increase your header size, decrease   the number.
 </details>
 
 ## Simple Resources:
 
-**Main Idea 1**:
 Intro to HTML: [W3 Schools](https://www.w3schools.com/html/html_intro.asp)
 
 Intro to CSS: [W3 Schools](https://www.w3schools.com/Css/css_intro.asp) 
