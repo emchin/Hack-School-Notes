@@ -292,8 +292,10 @@ Reference Slide 39 for help!
 
 ## Simple Resources:
 
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.76M54-KoDIgbYo9HUuUuDgHaEK%26pid%3DApi&f=1">
-(You, after reading the workshop notes and still not understanding them)
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.76M54-KoDIgbYo9HUuUuDgHaEK%26pid%3DApi&f=1" alt="confused Team Rocket">
+
+^^ you, after reading the workshop notes and still not understanding them :(
+
 
 Intro to HTML: [W3 Schools](https://www.w3schools.com/html/html_intro.asp)
 
