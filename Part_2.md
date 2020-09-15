@@ -8,9 +8,9 @@ In this workshop, we learned about Javascript and Node.js. Specifically, we lear
 
 
 We used these ideas to:
-- [x] Create pokemon
-- [x] Create attack functions
-- [x] Determine how much damage each attack does
+- [x] Create pokemon as JavaScript object
+- [x] Give the pokemon descriptions (HP, attacks, name)
+- [x] Create the damage mechanic
 
 
 
@@ -131,9 +131,9 @@ That object, Pikachu, has **properties**. Properties are characteristics of an o
 
 Objects can also have **methods**. Methods are functions that an object can execute. These methods can be accessed with `.method_name()`. For example, `Pikachu.attack()` would cause the Pikachu to attack.
 
-Methods often use `this` to call an object's own properties in its method. For example, Pikachu's "attack" method calls for `this.power`.
+Methods often use `this` to call an object's own properties in its method. For example, Pikachu's "attack" method can be called using `this.power`.
 
-<img src="https://img00.deviantart.net/6b98/i/2011/166/1/1/pikachu_thunderbolt_by_ajl03-d3izb66.png" alt="Pikachu using Thunderbolt!">
+<img src="https://img00.deviantart.net/6b98/i/2011/166/1/1/pikachu_thunderbolt_by_ajl03-d3izb66.png" alt="Pikachu using Thunderbolt!" height=50% width=50%>
 
 
 ### Callback and Higher-Order Functions
@@ -150,11 +150,12 @@ console.log('your pokemon will heal ' + (num1 * num2) + ' hp');
 	callback(pokemon, num1 * num2);
 }
 ```
+In this example, the you can see that `callback` is treated like an object because it is in between the parenthesis.
 
-This is a higher-order function `multNum` that asks a general callback function `callback` to do something with `(pokemon, num1*num2)`.
+The higher-order function `multNum` asks a general callback function `callback` to do something with `(pokemon, num1*num2)` on the last line of code.
 
-Later, we pass `heal` as the callback function:
 
+Later, we can pass `heal` as the callback function when we call the function `MultNum`:
 ```
 multNum (5, 6, pikachu, heal);
 ```
@@ -164,9 +165,11 @@ As you can see, in this instance, the higher-order function `MultNum` takes the 
 
 ## Project Implementation
 
-### Task 1
+### TODO DAMAGE
 
-We want to do (insert task here) for our Pokemon generator.
+<img src="https://i.imgflip.com/251r3m.jpg" alt="that's a lot of damage! meme" height=50% width=50%>
+
+We want to figure out how much damage our pokemon takes if it is attacked!
 
 For that, we use **main idea 1** and **main idea 2**.
 
