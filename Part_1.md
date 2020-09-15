@@ -71,17 +71,18 @@ The `src` attribute asks for a source where the computer can find an image. This
 The `alt` attribute asks for an alternate text to display if the computer cannot load or find the image. Unlike the `src` attribute, the `alt` attribute is not necessary to display an image; however, it is a good attribute to include for accessibility reasons or in case the user has slow wi-fi and can't load an image.
 
 Here's an example of the `<img` element.
+
 `<img src="image.jpg" alt="the thing didn't load" />`
 
 ##### `<a>` element
 
 The `<a>` element creates a link. It has the end tag `</a`.
   
-This element requires one attribute `href`. The `href` attribute asks for a reference link (where you will go if you click on the link). Usually, you can copy-paste a URL for this attribute.
+This element requires one attribute `href`. The `href` attribute asks for a reference link (the destination, if you click on the link). Usually, you can copy-paste a URL for this attribute. Or you can also give a file name as a destination (see example).
 
 The text contained between the two `<a>` tags will serve as your link.
 
-`<a href="other-site.html">The text that shows up</a>`
+`<a href="other-site.html">Click on this to go to the link!</a>`
 
 ##### `<h>` element
 
