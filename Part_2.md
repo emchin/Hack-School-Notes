@@ -165,28 +165,94 @@ As you can see, in this instance, the higher-order function `MultNum` takes the 
 
 ## Project Implementation
 
-### TODO DAMAGE
+### TODO: Damage (on Pokemon.js)
 
 <img src="https://i.imgflip.com/251r3m.jpg" alt="that's a lot of damage! meme" height=50% width=50%>
 
 We want to figure out how much damage our pokemon takes if it is attacked!
 
-For that, we use **main idea 1** and **main idea 2**.
+```
+damage : function(damage) {
+    //TODO DAMAGE
+},
+```
 
-```
-example code here
-```
+For that, we use our knowledge of **objects' methods** and `this`.
+
+The method gives us a parameter, `damage`, which is a number that tells us how health points(HP) our pokemon lost.
 
 <details> 
-  <summary> Hint 1: Where to begin? </summary>
-	Start with this: <code>this code here</code>
+  <summary> Hint 1: Health Points </summary>
+	You can get a pokemon's health points using <code>this</code> and accessing the property <code>health</code>.
+</details>
+
+<details> 
+  <summary> Hint 2: Basic Math </summary>
+	You can determine a pokemon's current health by setting your pokemon's health equal to pokemon's health minus damage.
+</details>
+
+### TODO: Randomize Damage (Pokemon.js)
+
+If you've played pokemon before, you know that some attacks have different damage points based off of the pokemon's type!
+
+To easily mimic this effect, we are going to **randomize** the amount of damage that each attack does.
+
+```
+attack : function (attacker) {
+    // TODO RANDOMIZE DAMAGE
+    
+    //hint look up node.js random.int
+    //hint attacker.damage(damage);
+    //hint this.attacks[SOMETHING]
+    //remember to use return (whatyoushouldreturn)
+}
+```
+For that, we use our knowledge of **variables**, **objects' methods** and `this`.
+
+The method gives us a parameter, `attacker`, which is the attacking pokemon as an object.
+
+<details> 
+  <summary> Hint 1: node.js random.int </summary>
+	We already require('random') at the top of Pokemon.js!
+	To access the random function, use <code>random(first_num, second_num)</code>.
+	This gives you a random number in between first_num and second_num.
+</details>
+
+<details> 
+  <summary> Hint 2: attacker.damage(damage) </summary>
+	Add this code directly to the method (remove <code>//hint </code>)
+</details>
+
+<details> 
+  <summary> Hint 3: this.attacks[SOMETHING] </summary>
+	This is the part of the code where Pikachu attacks!
+	To attack, you need to call this.attacks(SOMETHING) where SOMETHING is the amount of damage the attack does.
+	(We seem to have already determined that random value...)
+</details>
+
+<details> 
+  <summary> Hint 3: return (whatyoushouldreturn) </summary>
+	What are you missing?
+	<img src="http://pm1.narvii.com/5777/852647e5bf3e64456974acad207295c2445f6964_hq.jpg" alt="Ash yelling" height=50% width=50%>
+	As amusing as it would be for pokemon to just snipe each other silently, it would be a pretty boring game! We want to know what attack the pokemon used!
+	Hint: it should be a random move.
+</details>
+
+<details> 
+  <summary> Hint 4: I still don't get it :( </summary>
+	You want to randomize what move your pokemon uses. 
+	You have a function that generates a random integer, given a lowest and highest value.
+	You can count elements in a list with the <code>.length</code> attribute.
+	You have a list of pokemon attacks.
 </details>
 
 ## Simple Resources:
 
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FggUcrIWgKNI%2Fmaxresdefault.jpg&f=1&nofb=1" alt="brock-crying" height=50% width=50%>
 
-We've all learned JavaScript. We've all been there. If any of you are feeling like Brock right now, please go find a mentor for help.
+We've all seen JavaScript. We've all been there. If any of you are feeling like Brock right now, please go find a volunteer for help.
+
+Remember, Office Hours and the Discord are always there to help!
 
 About `let`, `var` and `const`: [freecodecamp article](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
