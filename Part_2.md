@@ -133,6 +133,8 @@ Objects can also have **methods**. Methods are functions that an object can exec
 
 Methods often use `this` to call an object's own properties in its method. For example, Pikachu's "attack" method calls for `this.power`.
 
+<img src="https://img00.deviantart.net/6b98/i/2011/166/1/1/pikachu_thunderbolt_by_ajl03-d3izb66.png" alt="Pikachu using Thunderbolt!">
+
 
 ### Callback and Higher-Order Functions
 
@@ -160,20 +162,6 @@ multNum (5, 6, pikachu, heal);
 As you can see, in this instance, the higher-order function `MultNum` takes the callback function `heal` as a callback function.
 
 
-### Promises
-
-Main Idea 1 is (explanation).
-
-Some examples of Main Idea 1 are:
-
-#### `(Code Command #1)`
-
-`Code Command #1` is a (insert descriptor here). It takes (input) and (does output).
-
-```
-example code here
-```
-
 ## Project Implementation
 
 ### Task 1
@@ -195,7 +183,7 @@ example code here
 
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FggUcrIWgKNI%2Fmaxresdefault.jpg&f=1&nofb=1" alt="brock-crying" height=50% width=50%>
 
-We've all learned JavaScript. We've all been there. If any of you are feeling like Brock right now, feel free to go find a mentor for help.
+We've all learned JavaScript. We've all been there. If any of you are feeling like Brock right now, please go find a mentor for help.
 
 About `let`, `var` and `const`: [freecodecamp article](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
