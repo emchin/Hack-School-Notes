@@ -282,16 +282,17 @@ See slide 18 of Part One for help.
 
 ### Task 2: Create a NavBar (and make it double)!
 
-Copy and paste the code from Slide 19 into viewPokemon.html and createPokemon.html.
+Copy and paste the code from slide 19 into your viewPokemon.html document. 
 
-<details>
-  <summary>Hint 1: How do I do that?</summary>
-  If you have clicked on this hint...Team Rocket is ashamed of you.
-  
-  <img src="https://i.ytimg.com/vi/_lJ98sqFY_g/hqdefault.jpg" alt="Jessie and Meowth Complaining">
-</details>
+Then create a new HTML document called createPokemon.html, and paste the NavBar code there too.
+
+### Task 3: Go through all the TODOs on main.css!
+
+Reference Slide 39 for help!
 
 ## Simple Resources:
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.76M54-KoDIgbYo9HUuUuDgHaEK%26pid%3DApi&f=1">
 
 Intro to HTML: [W3 Schools](https://www.w3schools.com/html/html_intro.asp)
 
