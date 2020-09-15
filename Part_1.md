@@ -57,6 +57,7 @@ The `head` element contains all the website's metadata. Metadata might be shown 
 
 The `body` element contains all the website's content. Content is what you see on the website itself.
 
+
 #### Common HTML elements
 
 ##### `<img>` element
@@ -84,9 +85,78 @@ The text contained between the two `<a>` tags will serve as your link.
 
 ##### `<h>` element
 
-The `<h>` elements are header elements. They display text on a webpage at different sizes.
+The `<h>` elements are header elements. They display bold text on a webpage at different sizes with `<h1>Heading One</h1>` being the largest text, and `<h6>small</h6>` being the smallest heading.
 
-<img href="http://coschedule.com/blog/wp-content/uploads/html-heading-tag-levels.png">
+For reference, look at Slide 14 of the HTML/CSS slides.
+
+##### `<p>` element
+
+The `<p>` element is the plain-text elements. They display regular, unbolded text on a website.
+
+For reference, look at Slide 14 of the HTML/CSS slides.
+
+
+### How to create website elements
+
+CSS determines the layout, design and color of a webpage. We style webpage elements with CSS.
+
+While it is possible to style HTML using other HTML elements like `<font>`, it is a NIGHTMARE to implement in a website. You have to put the HTML style elements around every paragraph that you want styled, adding a new element for each change in font size/font color/background color/alignment...
+
+Usually, when developing a website, developers use an external CSS.
+
+CSS syntax follows this rule: `selector {property:value}`. We apply a `selector`(s) that describes an HTML element, and then we apply a `declaration` styling that element. Each declaration contains a `property` and a `value`.
+
+For example, if we want to make each plain-text element have 14-pt font:
+
+```p {font-size:14}```
+
+This selects each element `p` in the HTML document, and applies a declaration. The declaration says that `font-size` (property) now is equal to `14` (value).
+
+CSS contains other properties such as `background-color`, `color` and `border`. They are fairly self-explanatory, but if you want more information on CSS properties, check out the Simple Resources at the bottom of these notes!
+
+#### Classes and Ids
+
+Selecting all plain-text elements is okay if you want *all* plain-text to have font-size of 14. But what if you only want some plain-text to be styled this way?
+
+That's where classes and ids come in.
+
+A **class** is an identifier that can be used for multiple HTML elements. If you give the HTML element the attribute `class="example_class"`, then you can style that element by using `.example_class` as your CSS selector.
+
+Note that you add a `.` before your `example_class` to tell the CSS compiler that `example_class` is a CLASS.
+
+For example, if you modify elements in your HTML document with `example_class`:
+```
+<h1 class="example_class"> This text will be red. </h1>
+<p class="example_class"> This text will be red. </p>
+<p> This text will not be red. </p>
+```
+
+Then you can style those modified elements in your CSS document:
+```
+.example_class {
+    color: 'red';
+}
+```
+
+An **id** is an identifier that can only be used for *ONE* HTML element. If you give an HTML element the attribute `id="example_id"`, then you can style that element by using `#example_id` as your CSS selector.
+
+Note that you add a `#` before your `example_id` to tell the CSS compiler that `example_id` is an ID.
+
+For example, by tagging the first heading in HTML:
+```
+<h1 id="example_id"> This text will be blue and 20-pt. </h1>
+
+<h2> Remember, I can't give this the id "example_id" because you can only use one id for one HTML element! </h2>
+```
+
+You can reference that in CSS by selecting the id:
+```
+#example_id {
+    color: 'red';
+    font-size: 20;
+}
+```
+
 
 ## Project Implementation
 
