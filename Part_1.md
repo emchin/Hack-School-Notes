@@ -95,6 +95,22 @@ The `<p>` element is the plain-text elements. They display regular, unbolded tex
 
 For reference, look at Slide 14 of the HTML/CSS slides.
 
+##### `<div>` element
+
+The `div` element is meant to create divisions in the HTML series. You can group elements together inside different `div` elements.
+
+For example, if you want to do an Info section on a personal website, you might want to group your title ("Info about me!") with your next plain-text paragraph ("Hi! My name is Emily and I'm x, y and z!")
+
+In HTML, this would look like:
+```
+<div>
+<h1> Info about me! </h1>
+<p> Hi! My name is Emily and I'm x, y and z! </p>
+</div>
+```
+
+This will become more useful and important in conjunction with **classes**, **ids** and **flexbox**.
+
 
 ### How to style website elements
 
@@ -120,7 +136,7 @@ Selecting all plain-text elements is okay if you want *all* plain-text to have f
 
 That's where classes and ids come in.
 
-##### Classes
+#### Classes
 A **class** is an identifier that can be used for multiple HTML elements. If you give the HTML element the attribute `class="example_class"`, then you can style that element by using `.example_class` as your CSS selector.
 
 Note that you add a `.` before your `example_class` to tell the CSS compiler that `example_class` is a CLASS.
@@ -141,7 +157,7 @@ Then you can style those modified elements in your CSS document:
 }
 ```
 
-##### ids
+#### ids
 
 An **id** is an identifier that can only be used for *ONE* HTML element. If you give an HTML element the attribute `id="example_id"`, then you can style that element by using `#example_id` as your CSS selector.
 
@@ -164,8 +180,78 @@ You can reference the first `<h1>` in CSS by selecting the id:
 }
 ```
 
+#### Selectors Using Combinators
 
-## Project Implementation
+If you want to get even more specific with CSS, you can select certain children and siblings in html `<div>` elements.
+
+A **child** of a `div` element is an element INSIDE OF a `div`.
+
+For example:
+```
+<div>
+<p> I am a child of a div! This text will be styled red. </p>
+</div>
+```
+You can select the first child of a `div` element by using a `>` in your CSS.
+```
+div > p {
+  color: #FF0000;
+}
+```
+
+A **sibling** of a `div` element is an element NEXT TO a `div`.
+
+For example:
+```
+<div>
+</div>
+<p> I am a sibling of the above div! This text will be red. </p>
+```
+You can select the first sibling of a `div` element by using a `+` in your CSS.
+```
+div + p {
+  color: #FF0000;
+}
+```
+
+But wait, you ask. What if you want to select all the siblings or classes? Or if you want to select the second sibling or class, not the first?
+
+Then you need to create a class or id for your element(s).
+
+For example:
+```
+<div>
+</div>
+<p class="red"> I am a sibling of the above div! I want this to be red. </p>
+<p class="red"> I am the SECOND sibling of the above div! I want this to be red too, so I need to create a red class! </p>
+```
+Then in the CSS, you can select the appropriate class or id to style:
+```
+div + .red {
+  color: #FF0000;
+}
+```
+
+### Flexbox
+
+Flexbox is a series of CSS properties that allows you to style and arrange elements. It's especially helpful when you have different display screen sizes and you want your elements that move around the screen to acommodate. We often use flexbox with the html element `<div>`.
+
+#### `justify-content`
+
+`justify-content` is how    much        space is between each element.
+
+#### `align-content`
+
+`align-content` is where the element is aligned (for example, each line of this document's text starts at the left and moves outwards to the right, so this text is left-aligned, as most essays are.)
+
+#### `flex-direction`
+
+`flex-direction` is the order in which each element appears (for example, in rows? columns?
+
+For more information about flexbox (it is very important for website design, and very much a pain in the butt if you don't know it), check out the resources at the bottom of the page.
+
+
+## Project Implementation   
 
 ### Task 1
 
@@ -185,7 +271,8 @@ example code here
 ## Simple Resources:
 
 **Main Idea 1**:
+Intro to HTML: [W3 Schools](https://www.w3schools.com/html/html_intro.asp)
 
-Site #1: (link)
+Intro to CSS: [W3 Schools](https://www.w3schools.com/Css/css_intro.asp) 
 
-Site #2: (link)
+Flexbox: [Way2 Tutorial](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
