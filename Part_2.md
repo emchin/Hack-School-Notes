@@ -193,7 +193,7 @@ example code here
 
 ## Simple Resources:
 
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FggUcrIWgKNI%2Fmaxresdefault.jpg&f=1&nofb=1" alt="brock-crying">
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FggUcrIWgKNI%2Fmaxresdefault.jpg&f=1&nofb=1" alt="brock-crying" height=50% width=50%>
 
 We've all learned JavaScript. We've all been there. If any of you are feeling like Brock right now, feel free to go find a mentor for help.
 
