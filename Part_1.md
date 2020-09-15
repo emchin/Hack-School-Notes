@@ -147,7 +147,7 @@ An **id** is an identifier that can only be used for *ONE* HTML element. If you 
 
 Note that you add a `#` before your `example_id` to tell the CSS compiler that `example_id` is an ID.
 
-For example, by tagging the first <h1> in HTML:
+For example, by tagging the first `<h1>` in HTML:
   
 ```
 <h1 id="example_id"> This text will be red and 10-pt. </h1>
@@ -155,7 +155,7 @@ For example, by tagging the first <h1> in HTML:
 <h1> Remember, I can't give this element the id "example_id" because you can only use one id per HTML element! </h1>
 ```
 
-You can reference the first <h1> in CSS by selecting the id:
+You can reference the first `<h1>` in CSS by selecting the id:
   
 ```
 #example_id {
