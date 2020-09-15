@@ -270,7 +270,10 @@ This should be in the object `Ivy`!
 
 We are going to set up a for-loop. This code already has an `if` statement that will be inside of the for-loop.
 
-`if(nameOfAttack == this.attacks[index])` wants to check if the nameOfAttack (the attack that we give our pokemon) is contained in the list `this.attacks`.
+<details> 
+	<summary> Hint 1: What does that <code>if</code> code statement mean? </summary>
+	<p> <code>if(nameOfAttack == this.attacks[index])</code> wants to check if the nameOfAttack (the attack that we give our pokemon) is contained in the list `this.attacks`.</p>
+</details>
 
 <details> 
   <summary> Hint 2: This looks familiar...! </summary>
@@ -289,13 +292,25 @@ We are going to set up a for-loop. This code already has an `if` statement that 
 	<p> For more information on for-loops, look at slide 14 of the presentation. </p>
 </details>
 
+### TODO: Winning Conditions
+
+```
+// TODO WINNING CONDITIONS PRINT WHO WINS AND RETURN
+```
+
+We want to deteremine when a pokemon wins!
+
+A pokemon wins when their opponent loses all of their health points. Then a message displays, usually "___ won!".
+
+According to the instructions, you then `return`.
+
+
+
 ## Simple Resources:
 
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FggUcrIWgKNI%2Fmaxresdefault.jpg&f=1&nofb=1" alt="brock-crying" height=50% width=50%>
 
-We've all seen JavaScript. We've all been there. If any of you are feeling like Brock right now, please go find a volunteer for help.
-
-Remember, Office Hours and the Discord are always there to help!
+We've all seen JavaScript. We've all been there. If any of you are feeling like Brock right now, please go find a volunteer for help. Message us on Discord or drop into our Office Hours! We can help, we promise!
 
 About `let`, `var` and `const`: [freecodecamp article](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
