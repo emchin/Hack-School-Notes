@@ -310,14 +310,14 @@ According to the instructions, you then `return`.
 	<p> Good morning! This is a PSA from Nurse Joy and Chansey. </p>
 	<p> Sometimes, if you "finish off" a pokemon, the opponent's damage taken might be greater than their health points. </p>
 	<p> Please don't keep battling a pokemon with negative HP! </p>
-	<p> Please make sure your if-statement accounts for negative numbers (<code> <=0 <code>)! </p>
+	<p> Please make sure your if-statement accounts for negative numbers (<code> <=0 </code>)! </p>
 </details>
 
 ## Simple Resources:
 
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FggUcrIWgKNI%2Fmaxresdefault.jpg&f=1&nofb=1" alt="brock-crying" height=50% width=50%>
 
-We've all seen JavaScript. We've all been there. If any of you are feeling like Brock right now, please go find a volunteer for help. Message us on Discord or drop into our Office Hours! We can help, we promise!
+We all know what JavaScript can be like. If any of you are feeling like Brock right now, please go find a volunteer for help. Message us on Discord or drop into our Office Hours! We can help, we promise!
 
 About `let`, `var` and `const`: [freecodecamp article](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
