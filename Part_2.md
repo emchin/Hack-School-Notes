@@ -18,7 +18,9 @@ We used these ideas to:
 
 JavaScript is a scripting language (meaning: it has its own terminology, etc.). It is used to make applications dynamic and interactive.
 
-Node.js is an environment that sits in between a server and the client-side (what you see). It allows an application to process JavaScript commands asynchronously (through asynchronous programming).
+If you remember the house metaphor from Part 1, you can say that JavaScript is like the electricity in the house: it allows for light, running water, A/C, heat, dishwashers, etc.
+
+Node.js is an environment that sits in between a server (the computer) and the client-side (what you see). It allows an application to process JavaScript commands asynchronously (through asynchronous programming).
 
 In Hack School, we will be using JavaScript and Node.js to make our Pokemon game move/change. JavaScript and Node.js handles every dialogue box, every change in HP, every user command, etc., and updates accordingly.
 
@@ -104,9 +106,9 @@ PLEASE. DON'T. USE. `var`.)
 
 ### Objects
 
-Everything in JavaScript is an object. It's like the cake thing on TikTok.
+Everything in JavaScript is an object. It's like the cake thing on TikTok (rip TikTok).
 
-In our project, though, one important object is our pokemon.
+In our project, though, one important object is our pokemon!
 
 Let's take a look at our Pikachu example from the slides:
 
@@ -190,6 +192,10 @@ example code here
 </details>
 
 ## Simple Resources:
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FggUcrIWgKNI%2Fmaxresdefault.jpg&f=1&nofb=1" alt="brock-crying">
+
+We've all learned JavaScript. We've all been there. If any of you are feeling like Brock right now, feel free to go find a mentor for help.
 
 About `let`, `var` and `const`: [freecodecamp article](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 
