@@ -266,17 +266,17 @@ See slide 18 of Part One for help.
 
 <details> 
   <summary> Hint #1: Picture Perfect! </summary>
-  Your <code><img></code> tag should contain the attribute <code>src="copied_URL_from_internet"</code> or, if you're feeling extra fancy, <code>src="path_on_computer"</code>. Remember that your <code><img></code> does NOT have an end tag!
+  Your <img> tag should contain the attribute <code>src="copied_URL_from_internet"</code> or, if you're feeling extra fancy, <code>src="path_on_computer"</code>. Remember that your <img> tag does NOT have an end tag!
 </details>
 
 <details> 
   <summary> Hint #2: Remember to end (tag) strong! </summary>
-  Make sure each <code><h></code> and <code><p></code> tag has an end tag <code></h> and </p> sandwiching your header text and description text!
+  Make sure each <h> and <p> tag has an end tag </h> and </p> sandwiching your header text and description text!
 </details>
 
 <details> 
   <summary> Hint #3: Use your head(er)! </summary>
-  Remember that each header element <code><h1></code> to <code><h6></code> determines the size of the header! If you want to increase your header size, decrease   the number.
+  Remember that each header element <h1> to <h6> determines the size of the header! If you want to increase your header size, decrease the number.
 </details>
 
 ## Simple Resources:
