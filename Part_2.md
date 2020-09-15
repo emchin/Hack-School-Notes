@@ -169,7 +169,9 @@ As you can see, in this instance, the higher-order function `MultNum` takes the 
 
 <img src="https://i.imgflip.com/251r3m.jpg" alt="that's a lot of damage! meme" height=50% width=50%>
 
-We want to figure out how much damage our pokemon takes if it is attacked!
+We want to simulate damage to our pokemon!
+
+When a pokemon is damaged, their overall health points go down.
 
 ```
 damage : function(damage) {
@@ -196,6 +198,8 @@ The method gives us a parameter, `damage`, which is a number that tells us how h
 If you've played pokemon before, you know that some attacks have different damage points based off of the pokemon's type!
 
 To easily mimic this effect, we are going to **randomize** the amount of damage that each attack does.
+
+**The minimum amount of damage a pokemon can do is 0. The maximum amount is 20.**
 
 ```
 attack : function (attacker) {
@@ -247,6 +251,41 @@ The method gives us a parameter, `attacker`, which is the attacking pokemon as a
 	<p> You can count elements in a list with the <code>.length</code> attribute. </p>
 	<p> You have a list of pokemon attacks. </p>
 	<p> You can pick an element from the attacks list with this command <code>this.attacks[element_number]</code></p>
+</details>
+
+### TODO: For loop (Pokemon.js)
+
+This should be in the object `Ivy`!
+
+```
+    let damage = random.int(0,20);
+    
+    // search for attack and return damage
+    // TODO FOR LOOP
+    if(nameOfAttack == this.attacks[index]) {
+        attacker.damage(damage);
+        return damage;
+    }
+```
+
+We are going to set up a for-loop. This code already has an `if` statement that will be inside of the for-loop.
+
+`if(nameOfAttack == this.attacks[index])` wants to check if the nameOfAttack (the attack that we give our pokemon) is contained in the list `this.attacks`.
+
+<details> 
+  <summary> Hint 2: This looks familiar...! </summary>
+	<img src="https://www.pinknews.co.uk/images/2016/08/you-shall-not-pass-1.jpg" alt="team rocket in disguise" height=50% width=50%>
+	<p> Hey, this looks familiar...!</p>
+	<p></p>
+	<p> We know how to pick random elements from the <code>this.attacks</code> list (see the previous todo).</p>
+	<p> In this TODO, we want to get <b>every element</b> from the <code>this.attacks<.code> list.</p>
+</details>
+		
+
+<details> 
+  <summary> Hint 3: Loop Basics </summary>
+	<p> That means our for-loop wants to iterate over every number from 0 to length-1.</p>
+	<p> For more information on for-loops, look at slide 14 of the presentation. </p>
 </details>
 
 ## Simple Resources:
