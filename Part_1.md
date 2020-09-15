@@ -134,7 +134,7 @@ CSS contains other properties such as `background-color`, `color` and `border`. 
 
 #### Classes and Ids
 
-Selecting all plain-text elements is okay if you want *all* plain-text to have font-size of 14. But what if you only want some plain-text to be styled this way?
+Selecting all plain-text elements is okay if you want *all* plain-text `<p>`'s to have font-size of 14. But what if you only want some plain-text to be styled this way?
 
 That's where classes and ids come in.
 
@@ -217,6 +217,8 @@ div + p {
 ```
 
 But wait, you ask. What if you want to select all the siblings or classes? Or if you want to select the second sibling or class, not the first?
+
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c25735ac-4a7c-4e2f-aee5-e80eeac4beb6/dcupirs-ebe369c0-db50-4879-a0a5-98b705c66522.png/v1/fill/w_1024,h_640,strp/surprised_pikachu_hd_wallpaper___remastered_by_thorofi_dcupirs-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6IlwvZlwvYzI1NzM1YWMtNGE3Yy00ZTJmLWFlZTUtZTgwZWVhYzRiZWI2XC9kY3VwaXJzLWViZTM2OWMwLWRiNTAtNDg3OS1hMGE1LTk4YjcwNWM2NjUyMi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.BVqCJPQB-h2ld0gRfZElladNmrvk4rByFe2BRjUsjA8" alt="shocked pikachu meme">
 
 Then you need to create a class or id for your element(s).
 
