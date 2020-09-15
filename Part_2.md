@@ -1,6 +1,7 @@
 # Hack School: Part 2 - Javascript/Node.js (10/22)
 
 Workshop Recording: (__insert-link-here__)
+
 REPL Link: (__insert-link-here__)
 
 In this workshop, we learned about Javascript and Node.js. Specifically, we learned about **variables**, **objects**, **arrow functions**, and **promises**.
