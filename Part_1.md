@@ -137,7 +137,7 @@ For example, if you modify elements in your HTML document with `example_class`:
 Then you can style those modified elements in your CSS document:
 ```
 .example_class {
-    color: 'red';
+    color: #FF0000;
 }
 ```
 
@@ -150,7 +150,7 @@ Note that you add a `#` before your `example_id` to tell the CSS compiler that `
 For example, by tagging the first <h1> in HTML:
   
 ```
-<h1 id="example_id"> This text will be red and 20-pt. </h1>
+<h1 id="example_id"> This text will be red and 10-pt. </h1>
 
 <h1> Remember, I can't give this element the id "example_id" because you can only use one id per HTML element! </h1>
 ```
@@ -159,8 +159,8 @@ You can reference the first <h1> in CSS by selecting the id:
   
 ```
 #example_id {
-    color: 'red';
-    font-size: 20;
+    color: #FF0000;
+    font-size: 10;
 }
 ```
 
