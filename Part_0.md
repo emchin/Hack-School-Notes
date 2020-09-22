@@ -104,7 +104,7 @@ This is a fairly default `pwd` result: the user is currently inside their comput
 
 <details> 
   <summary> Try it yourself!: If you were in the <code>class_stuff</code> directory, what would <code>pwd</code> return?</summary>
-  <code>pwd</code> would return <code>/home/mthomas/class_stuffcode>.
+  <code>pwd</code> would return <code>/home/mthomas/class_stuff</code>.
 </details>
 
 
