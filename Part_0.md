@@ -80,6 +80,33 @@ However, if you were in `mthomas`, you could get to `foo` using a local path. Th
 
 For convenient coding, most of the time you will want to use a root directory so the program is never confused on where files are located.
 
+### Unix Commands
+
+A **command** are word(s) that are sent to the command line. The command line then takes our commands, compiles them into binary, and then sends it to the computer operating system to do something.
+
+Here are a few Unix commands that you can use on your command line (either Unix or Git Bash).
+
+#### Where are you? Use `pwd`!
+
+The command `pwd` is used to determine where you are in the Unix file system. `pwd` stands for **present working directory**.
+
+This is an example of someone using `pwd` on their computer:
+
+<img src="https://codeforwin.org/wp-content/uploads/2019/02/pwd-command-linux-min.jpg" alt="pwd_screenshot">
+
+The `$` marks the end of their user account name (`bandnapaikaray` on their localhost network). On the first line, you can see that they used `pwd`.
+
+Their command line returned `/home/bandnapaikaray`.
+
+You should recognize this as a root path!
+
+This is a fairly default `pwd` result: the user is currently inside their computer (`/`), inside one of the accounts (`home`), and specifically inside the `bandnapaikaray` account.
+
+<details> 
+  <summary> Try it yourself!: If you were in the <code>class_stuff</code> directory, what would <code>pwd</code> return?</summary>
+  <code>pwd</code> would return <code>/home/mthomas/class_stuffcode>.
+</details>
+
 
 #### Navigating directories using `cd`
 
@@ -97,7 +124,7 @@ For example, if you were currently in the `/bin` directory, you could use `cd ..
 This command moves from a current directory to another directory.
 
 
-## What is [Workshop Name]?
+## What is Git?
 
 [Workshop Name] is (insert general description here). It is used for (general purpose).
 
