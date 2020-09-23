@@ -114,7 +114,7 @@ In HTML, this would look like:
 ```
 
 This will become more useful and important in conjunction with **classes**, **ids** and **flexbox**.
-
+<br>
 
 ### How to style website elements
 
