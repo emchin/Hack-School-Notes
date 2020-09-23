@@ -331,7 +331,7 @@ For that, we use **`git branch`** and **`git checkout`**.
 
 ## Simple Resources:
 
-<img src="http://i.ytimg.com/vi/b7jEXzh2ioY/hqdefault.jpg" alt="Team Rocket Stealing">
+<img src="https://78.media.tumblr.com/1b3e05cd2507a00291a04f4eafd6737a/tumblr_o1mjhwkr6Y1um0safo2_400.gif" alt="Team Rocket with a broken brakes">
 
 Why not keep going? Check out these resources for more information about Unix, file systems, and Git! If you do choose to research on your own, feel free to check in with the Hack School volunteers and organizers if you have any questions. We want to help you succeed!
 
