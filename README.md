@@ -1,6 +1,10 @@
 # Hack-School-Notes
 
+<img src=https://i.ytimg.com/vi/zGZxE017zFM/maxresdefault.jpg alt="Professor Oak's Hello There" align=center>
 
-Hack School: Learn the MERN notes (FA20)
+Thanks for checking out these notes! We hope the explanations, `code snippets` and hints will help you on your journey to create your own Pokemon Generator!
 
-<img src="https://s-media-cache-ak0.pinimg.com/originals/e5/93/23/e59323f2b00f0f26146efeeb7735de8e.jpg" alt="Brock and his frying pan">
+Your very own Pokemon legend is about to unfold!
+
+A world of dreams and adventures with Pokemon awaits! Let’s go!
+<br>
