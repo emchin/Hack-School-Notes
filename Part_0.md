@@ -335,7 +335,7 @@ For that, we use **`git branch`** and **`git checkout`**.
 
 Why not keep going? Check out these resources for more information about Unix, file systems, and Git! If you do choose to research on your own, feel free to check in with the Hack School volunteers and organizers if you have any questions. We want to help you succeed!
 
-Unix commands: [Standford](http://mally.stanford.edu/~sr/computing/basic-unix.html)
+Unix commands: [Stanford](http://mally.stanford.edu/~sr/computing/basic-unix.html)
 
 File Systems: [ComputerHope Blog](https://www.computerhope.com/jargon/s/subdirec.htm)
 
