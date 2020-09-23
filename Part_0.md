@@ -331,8 +331,14 @@ For that, we use **`git branch`** and **`git checkout`**.
 
 ## Simple Resources:
 
-**Main Idea 1**:
+<img src="http://i.ytimg.com/vi/b7jEXzh2ioY/hqdefault.jpg" alt="Team Rocket Stealing">
 
-Site #1: (link)
+Why not keep going? Check out these resources for more information about Unix, file systems, and Git! If you do choose to research on your own, feel free to check in with the Hack School volunteers and organizers if you have any questions. We want to help you succeed!
 
-Site #2: (link)
+Unix commands: [Standford](http://mally.stanford.edu/~sr/computing/basic-unix.html)
+
+File Systems: [ComputerHope Blog](https://www.computerhope.com/jargon/s/subdirec.htm)
+
+Basic Git Commands: [RubyGarage Blog](https://rubygarage.org/blog/most-basic-git-commands-with-examples)
+
+More on `git pull`: [Atlassian](https://www.atlassian.com/git/tutorials/syncing/git-pull)
