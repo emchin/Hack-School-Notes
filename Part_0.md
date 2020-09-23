@@ -126,7 +126,7 @@ This command moves from a current directory to another directory.
 
 ## What is Git?
 
-<img src="https://cdn.afterdawn.fi/v3/news/original/github-logo.png" alt="github logo" height=25% width=25%>
+<img src="https://cdn.afterdawn.fi/v3/news/original/github-logo.png" alt="github logo" height=10% width=10%>
 
 Git is a very popular version-control software used during software development. It is used for tracking changes and making sure your software always has backups, in case someone messes up. Data in Git is stored in a file system with directories, just like with Unix (although directories in Git are called **repositories**.)
 
