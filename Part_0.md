@@ -126,13 +126,76 @@ This command moves from a current directory to another directory.
 
 ## What is Git?
 
-[Workshop Name] is (insert general description here). It is used for (general purpose).
+<img src="https://cdn.afterdawn.fi/v3/news/original/github-logo.png" alt="github logo" height=25% width=25%>
 
-In Hack School, we will be using [Tool 1] to (purpose for project).
+Git is a very popular version-control software used during software development. It is used for tracking changes and making sure your software always has backups, in case someone messes up. Data in Git is stored in a file system with directories, just like with Unix (although directories in Git are called **repositories**.)
 
-### Main Idea 1
+We access Git using either Git Bash or Unix.
 
-Main Idea 1 is (explanation).
+In Hack School, we will be using Git to make a personal branch of the Pokemon Generator.
+
+### Configuring Git on your computer
+
+First, make sure you have Git downloaded on your computer!
+
+Next (ignoring the $ symbol: remember, that marks the end of a username), enter these two commands:
+```
+$ git config --global user.name "FirstName LastName"
+```
+and then
+```
+$ git config --global user.email "email@domain.com"
+```
+These will configure Git on your computer (that is: tell your computer what account you are using on Git).
+
+
+### Adding and committing
+
+You can **add** files using the `git add` command. In Git, adding files means moving files to your *staging area*.
+
+You can think of your *staging area* as your Git checkout basket. While you can make personalize changes and select what you want to upload, **adding** on Git does not actually do anything to your Git repository. You'll need to commit to effect changes in your code.
+
+#### `git add`
+
+`git add` is a Git command that takes an input file(s) and adds them to your staging area.
+
+You can use `git add` in a variety of different ways, including:
+
+`git add new-file.txt`, where you add a file "new-file.txt" to your staging area;
+
+`git add new-file1.txt newfile2.txt` where you can add multiple files to your staging area, if the file names are given and separated by spaces;
+
+or even `git add --all`, where all updated or modified files get sent to your staging area.
+
+
+<details> 
+  <summary> Extra Credit: How to remove files from your staging area? </summary>
+  Added something you don't want to send to your staging area? Try using the <code>rm</code> command: <code> rm --cached file_name.txt </code>. You'll need to add <code>--cached</code> to tell Git that the file you want to remove ("file_name.txt") is already cached (that is, it's already in the staging area).
+</details>
+
+Now you've added file(s) to your staging area. The next step is to move these changed file(s) to your local repository: where your Git code lives on your computer.
+
+
+#### `git commit`
+
+`git commit` is a Git command that takes the input file(s) from the staging area and adds them to your local repository.
+
+Usually, you'll want to use this command:
+```
+git commit -m "this is a message"
+```
+By adding `-m`, you can add a message attached to your commit. This is especially useful so you can make notes of what you changed, so if you ever have to go back through your code to hunt down a previous version, you don't have to manually look through "commit 405" to "commit 500" to see what changes you made.
+
+Congratulations! You have moved files from your staging area to your local repository (computer).
+
+
+### What is a remote repository?
+
+A remote repository is where software is stored online.
+
+<img src="https://qph.fs.quoracdn.net/main-qimg-a161bdd97e4e0de40d999ac222fe2008" alt="remote repository diagram">
+
+By moving your code from a local repository to a remote repository, you put your code on the Internet. That allows your GitHub profile to show the code. It also allows other collaboraters to access the new code.
 
 Some examples of Main Idea 1 are:
 
