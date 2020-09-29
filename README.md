@@ -7,5 +7,10 @@ Thanks for checking out these notes! We hope the explanations, `code snippets` a
 > Your very own Pokemon legend is about to unfold!
 > A world of dreams and adventures with Pokemon awaits! Let’s go!
 
-
 <br>
+
+<b>Hack School Pokedex</b>
+<a href="https://github.com/emchin/Hack-School-Notes/blob/master/000:%20Unix%20and%20Git.md">000: Unix and Git</a>
+<a href="https://github.com/emchin/Hack-School-Notes/blob/master/001:%20HTML%20and%20CSS.md">001: HTML and CSS</a>
+<a href="https://github.com/emchin/Hack-School-Notes/blob/master/002:%20Javascript%20and%20Node.js.md">002: JavaScript and Node.js</a>
+<a href="https://github.com/emchin/Hack-School-Notes/blob/master/003:%20DOM%20and%20Javascript.md">003: DOM Manipulation and React</a>
