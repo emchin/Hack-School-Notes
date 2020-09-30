@@ -1,6 +1,6 @@
 # Hack School: Part 3 - DOM Manipulation, React (10/29)
 
-Slides Link: (__insert-link-here_)
+Slides Link: (__insert-link-here__)
 
 Workshop Recording: (__insert-link-here__)
 
@@ -22,10 +22,31 @@ We used these ideas to to:
 
 DOM is the tree structure that organizes HTML elements. JavaScript uses the DOM organization to access HTML elements--like how you might use an address to find a location.
 
+The tree structure follows that of any family tree. 
+- The element directly above is considered a parent (for example, on the far left, the `Element: <title>` is a parent of `Text: "My title"`).
+- The element directly below is considered a child (in the same example, `Text: "My title"` is the child of `Element: <title>`).
+- Elements next to one another on the same level are considered siblings (see the bottom right elements `Element: <a>` and `Element: <h1>`).
+
 In Hack School, we will be using DOM to animate and modify the Pokemon Generator with JavaScript.
 
 
-### Main Idea 1
+### element.childNodes[index].nodeValue;
+
+This is the general formula for accessing a webpage element.
+
+Main Idea 1 is (explanation).
+
+Some examples of Main Idea 1 are:
+
+#### `(Code Command #1)`
+
+`Code Command #1` is a (insert descriptor here). It takes (input) and (does output).
+
+```
+example code here
+```
+
+### Selecting by ID or Class
 
 Main Idea 1 is (explanation).
 
