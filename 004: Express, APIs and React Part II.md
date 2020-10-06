@@ -1,4 +1,4 @@
-# Express, APIs and React pt. 2
+# Express, APIs and React pt. 2 (11/5)
 
 Workshop Recording: (__insert-link-here__)
 
