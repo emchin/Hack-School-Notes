@@ -2,7 +2,7 @@
 
 Git Workshop Recording: [here](https://discord.com/channels/573028991527550986/711966266822492212)
 
-In this workshop, we learned about Unix and Git. Specifically, we completed our **Installations**, and then learned about **Unix**, and **mGit**.
+In this workshop, we learned about Unix and Git. Specifically, we completed our **Installations**, and then learned about **Unix**, and **Git**.
 
 We used these ideas to:
 - [x] Install Git, Git Bash (for Windows), Node.js + npm
@@ -14,19 +14,27 @@ We used these ideas to:
 
 ### Git
 
-For Mac users: (download instructions) (link)
+For Mac users: [download instructions](https://git-scm.com/download/mac)
 
-For Windows: (download instructions) (link)
+For Windows: [download instructions](https://git-scm.com/download/win)
 
 ## Git Bash (for Windows users ONLY)
 
-Here are the download instructions: (download instructions) (link)
+Here are the download instructions: [download instructions](https://appuals.com/what-is-git-bash/)
 
 ## Node.js + npm
 
-For Mac users: (download instructions) (link)
+If you have homebrew installed on your computer, try `brew install node`
 
-For Windows: (download instructions) (link)
+For Mac users: [download instructions](https://www.zeolearn.com/magazine/install-node-js-on-mac)
+
+For Windows: [download instructions](https://nodejs.org/en/download/)
+
+When you're done with installing these, try entering these commands into your Terminal or Git Bash: `node -v` and `npm - v`.
+
+If installed correctly, your Terminal or Git Bash should return a version, like so:
+
+<img src="https://www.taniarascia.com/static/d889c946f42836b505c7a9f482453247/7883f/powershell.jpg" height=50% width=50%>
 
 
 ## What is Unix?
