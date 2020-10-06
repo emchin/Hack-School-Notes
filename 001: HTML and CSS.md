@@ -1,8 +1,8 @@
 # HTML/CSS (10/15)
 
-Workshop Recording: (__insert-link-here__)
+Workshop Link [to be updated...]
 
-REPL Link: (__insert-link-here__)
+Slides Link: [here](https://docs.google.com/presentation/d/1deLFuS8gbHcKHVuc3LTzMjkX-v20nIw5YqVeREB77Cs/edit?usp=sharing)
 
 In this workshop, we learned about HTML and CSS. Specifically, we learned about **how to create website elements** and **how to style webpage elements**.
 
