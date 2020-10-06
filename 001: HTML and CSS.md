@@ -298,7 +298,9 @@ Reference Slide 39 for help!
 
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.76M54-KoDIgbYo9HUuUuDgHaEK%26pid%3DApi&f=1" alt="confused Team Rocket">
 
-If you're feeling like Team Rocket right now, you can check out the links below for some more information! Or if you need some more help (or sympathy), message us on the Hack School Discord channel and we can help you out!
+Did this workshop make you feel like Team Rocket after crash-landing?
+
+Check out the links below for some more information! Or if you need some more help (or sympathy), message us on the Hack School Discord channel and we can help you out!
 
 
 Intro to HTML: [W3 Schools](https://www.w3schools.com/html/html_intro.asp)
