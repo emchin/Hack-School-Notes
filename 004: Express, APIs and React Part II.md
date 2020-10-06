@@ -1,8 +1,10 @@
-# [Workshop Name][Date]
+# Express, APIs and React pt. 2
 
 Workshop Recording: (__insert-link-here__)
 
-In this workshop, we learned about [Workshop Name]. Specifically, we learned **main idea 1**, **main idea 2**, and **main idea 3**.
+Slides: [here](https://docs.google.com/presentation/d/1dWe_7I-3eIoP-5SfsvCYTHHbfwCCQqrZSy1lCXHlX3Q/edit?usp=sharing)
+
+In this workshop, we learned about Express, APIs and (even more about) React. Specifically, we learned **main idea 1**, **main idea 2**, and **main idea 3**.
 
 We used these ideas to to:
 - [x] Task 1
