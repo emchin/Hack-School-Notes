@@ -1,8 +1,6 @@
 # Unix/Git (10/8)
 
-Workshop Recording: [here](__insert-link-here__)
-
-Workshop Slides: [here](__insert-link-here__)
+Git Workshop Recording: [here](https://discord.com/channels/573028991527550986/711966266822492212)
 
 In this workshop, we learned about Unix and Git. Specifically, we completed our **Installations**, and then learned about **Unix**, and **mGit**.
 
