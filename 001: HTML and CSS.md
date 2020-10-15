@@ -1,6 +1,6 @@
 # HTML/CSS (10/15)
 
-Workshop Link [to be updated...]
+Workshop Link: [here](https://www.youtube.com/channel/UCCrzZLNm7IVohTW8yF1tbqw)
 
 Slides Link: [here](https://docs.google.com/presentation/d/1deLFuS8gbHcKHVuc3LTzMjkX-v20nIw5YqVeREB77Cs/edit?usp=sharing)
 
