@@ -6,6 +6,8 @@ Slides Link: [here](https://docs.google.com/presentation/d/1deLFuS8gbHcKHVuc3LTz
 
 Repo Link: [here](http://acmurl.com/hackschool-fa20)
 
+Our Office Hours: [here](https://calendar.google.com/calendar/u/0/embed?src=c_9oo05l2mc019ai1u1emdg2s8g0@group.calendar.google.com&ctz=America/Los_Angeles)
+
 In this workshop, we learned about HTML and CSS. Specifically, we learned about **how to create website elements** and **how to style webpage elements**.
 
 We used these ideas to to:
