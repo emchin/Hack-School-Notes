@@ -8,10 +8,9 @@ Workshop Recording: [here]
 In the first part of this workshop, we learned about DOM and React. Specifically, we learned **how to access elements using JavaScript and DOM**, **the difference between React and HTML**, **components**, and **props**.
 
 We used these ideas to to:
-- [x] Pull starter code for this workshop
-- [x] Write components in NavBar, TextBox and MemeGenerator
+- [x] Download React
 - [x] Change the style in NavBar
-- [x] Add components to TextBox and LikeButton
+- [x] Create Pokemon.jsx as a React component
 
 
 ## What is DOM?
@@ -52,9 +51,9 @@ For example:
 <p id = "demo" class = "para">Hello!</p>
 <p id = "not_demo" class = "para">Goodbye!</p>
 ```
-If you want to select the "Goodbye" paragraph, you would input [1] into the index, since Goodbye is the second paragraph and the HTML index starts counting at 0.
+If you want to select the "Goodbye" paragraph, you would input [1] into the index, since Goodbye is the second paragraph and the HTML index starts counting at 0. 
 
-For more information about using the index, check out the resources below.
+(Which means that in most coding language, "Hello" would be the 0th paragraph and "Goodbye" would be the 1st paragraph.)
 
 #### `.innerHTML`
 
@@ -178,44 +177,55 @@ Navigate to the client folder, and then the src folder. The file App.js is where
 
 Go into the client folder and run `npm start` to see the webpage.
 
-<details> 
-  <summary> Hint #1: </summary>
-   Try doing this: <code> code </code>
-</details>
-
-
 ### Navbar
 
-We want to make our navbar for our Pokemon generator.
+We want to make our navbar for our Pokemon generator. We'll be creating a new .jsx file for it to live in :)
 
 For that, we use **workshop 1 code** and **functional components**.
 
 Reference slide 27-31 from the workshop [here](acmurl.com/hackschool-fa20-pt3)
 
 <details> 
-  <summary> Hint #1: </summary>
-   Try doing this: <code> code </code>
+  <summary> Hint #1: I choose you! </summary>
+    Did you remember to import React and './style.css'? And did you remember to <code>import</code> each component from <code>.location</code>? Remember, if you don't import, your code won't be able to use it!
+</details>
+
+<details> 
+  <summary> Hint #2: Team Rocket's Blasting Off Again...! </summary>
+    Did you remember to <code>export default</code> each component? If you don't export them, you can't access them in other files!
 </details>
 
 
 ### CreatePokemon.jsx
 
-We want to do (insert task here) for our Pokemon generator.
+We want to take our CreatePokemon component, translate it into React, and put it in our src/App.js file for our Pokemon generator.
 
 For that, we translate HTML to React syntax.
 
 Reference slide 27-31 from the workshop [here](acmurl.com/hackschool-fa20-pt3)
 
+Note:
+- Change `for` to `htmlFor`
+- Change the move power `value` to `defaultValue`
+
 <details> 
-  <summary> Hint #1: </summary>
-   Try doing this: <code> code </code>
+  <summary> Hint #1: Copy that, Copycat! </summary>
+    Did you remember to switch all instances of <code>class</code> to <code>className</code>? Remember, we need to do that when switching HTML to React!
 </details>
 
 
 ## Simple Resources:
 
+<img src="http://31.media.tumblr.com/tumblr_lr16h9m7YX1qhf88oo1_500.gif" height=50% width=50% alt="Dragonite flying against Team Rocket">
+
+Midterm stress got you feeling like you're on a cliff, hopelessly trying to push your deadlines back, and needing a fluffy cat to keep you grounded? Check out our #aww channel on the ACM discord for some fluffy therapy - but hurry back to develop some more React with us! 
+
+Feel free to DM us on Discord if you have any questions or want to arrange some office hours. We're here to help - we promise! :)
+
 **Main Idea 1**:
 
-Site #1: (link)
+Site #1: [W3 React tutorial](https://www.w3schools.com/react/)
 
-Site #2: (link)
+Note: W3 schools is an ***awesome*** place to learn coding. I would highly recommend it for not only React but also just about any other coding language there is.
+
+Site #2: [Documentation about DOM from Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
